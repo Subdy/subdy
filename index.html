@@ -1,453 +1,842 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Agnes Template</title>
-    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:400,700|Mukta:500,700" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-</head>
-<body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-                                <svg width="48" height="32" viewBox="0 0 48 32" xmlns="http://www.w3.org/2000/svg">
-                                    <title>Agnes</title>
-                                    <defs>
-                                        <linearGradient x1="0%" y1="100%" y2="0%" id="logo-a">
-                                            <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#007DFF" offset="100%"/>
-                                        </linearGradient>
-                                        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="logo-b">
-                                            <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#FF4F7A" offset="100%"/>
-                                        </linearGradient>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd">
-                                        <rect fill="url(#logo-a)" width="32" height="32" rx="16"/>
-                                        <rect fill="url(#logo-b)" x="16" width="32" height="32" rx="16"/>
-                                    </g>
-                                </svg>
-                            </a>
-                        </h1>
-                    </div>
-                </div>
+<html>
+  <head>
+    <title>Smoothy HTML CSS Template</title>
+    <meta name="keywords" content="" />
+	<meta name="description" content="" />
+    <!-- 
+    Smoothy Template 
+    https://templatemo.com/tm-396-smoothy
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/templatemo_style.css" rel="stylesheet">
+   	<link rel="stylesheet" href="css/templatemo_misc.css">
+
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,600' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/JavaScript" src="js/slimbox2.js"></script> 
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/ddsmoothmenu.js"></script>
+
+<!--/***********************************************
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+-->
+
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "templatemo_flicker", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script>
+
+  </head>
+  <body>
+    <header>
+    <!-- start menu -->
+    <div id="templatemo_home">
+    	<div class="templatemo_top">
+      <div class="container templatemo_container">
+        <div class="row">
+          <div class="col-sm-3 col-md-3">
+            <div class="logo">
+              <a href="#"><img src="images/templatemo_logo.png" alt="smoothy template mo"></a>
             </div>
-        </header>
-
-        <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-inner">
-                        <div class="hero-copy">
-                            <h1 class="hero-title h2-mobile mt-0 is-revealing">Landing template for startups</h1>
-                            <p class="hero-paragraph is-revealing">Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever.</p>
-                            <p class="hero-cta is-revealing"><a class="button button-primary button-shadow" href="#">Pricing and plans</a></p>
-                        </div>
-                        <div class="hero-illustration is-revealing">
-                            <svg width="528" height="413" viewBox="0 0 528 413" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="hero-illustration-a">
-                                        <stop stop-color="#A7FDE8" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#6EFACC" offset="100%"/>
-                                    </linearGradient>
-                                    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="hero-illustration-b">
-                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#FF4F7A" offset="100%"/>
-                                    </linearGradient>
-                                    <radialGradient fx="50%" fy="50%" r="100%" id="hero-illustration-c">
-                                        <stop stop-color="#6EFACC" offset="0%"/>
-                                        <stop stop-color="#6EFACC" stop-opacity="0" offset="100%"/>
-                                    </radialGradient>
-                                    <linearGradient x1="0%" y1="100%" y2="0%" id="hero-illustration-d">
-                                        <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#007DFF" offset="100%"/>
-                                    </linearGradient>
-                                    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="hero-illustration-e">
-                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#FF4F7A" offset="100%"/>
-                                    </linearGradient>
-                                    <filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="dropshadow-1">
-                                        <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"/>
-                                        <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"/>
-                                        <feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.2 0" in="shadowBlurOuter"/>
-                                    </filter>
-                                </defs>
-                                <g transform="translate(0 -1)" fill="none" fill-rule="evenodd">
-                                    <g transform="translate(128 290)" fill="url(#hero-illustration-a)">
-                                        <path d="M62.225 0l1.415 1.414L1.414 63.64 0 62.225zM66.468 4.243l1.414 1.414L5.657 67.882l-1.414-1.414zM70.71 8.485L72.126 9.9 9.899 72.125 8.485 70.71zM74.953 12.728l1.415 1.414-62.226 62.226-1.414-1.415zM79.196 16.97l1.414 1.415L18.385 80.61l-1.414-1.414zM83.439 21.213l1.414 1.414-62.226 62.226-1.414-1.414zM87.681 25.456l1.414 1.414L26.87 89.095l-1.414-1.414zM91.924 29.698l1.414 1.415-62.225 62.225-1.415-1.414z"/>
-                                        <path d="M91.924 29.698l1.414 1.415-62.225 62.225-1.415-1.414zM96.167 33.941l1.414 1.414-62.226 62.226-1.414-1.414zM100.41 38.184l1.413 1.414-62.225 62.225-1.414-1.414zM104.652 42.426l1.414 1.415-62.225 62.225-1.415-1.414zM108.894 46.669l1.415 1.414-62.226 62.226-1.414-1.415zM113.137 50.912l1.414 1.414-62.225 62.225-1.414-1.414zM117.38 55.154l1.414 1.415-62.225 62.225-1.415-1.414zM121.622 59.397l1.415 1.414-62.226 62.226-1.414-1.415z"/>
-                                        <g>
-                                            <path d="M100.811 0l-1.414 1.414 62.225 62.226 1.415-1.415zM96.569 4.243l-1.415 1.414 62.226 62.225 1.414-1.414zM92.326 8.485L90.912 9.9l62.225 62.226 1.414-1.414zM88.083 12.728l-1.414 1.414 62.225 62.226 1.415-1.415zM83.84 16.97l-1.414 1.415 62.226 62.225 1.414-1.414zM79.598 21.213l-1.414 1.414 62.225 62.226 1.414-1.414zM75.355 25.456l-1.414 1.414 62.226 62.225 1.414-1.414zM71.113 29.698l-1.415 1.415 62.226 62.225 1.414-1.414z"/>
-                                            <path d="M71.113 29.698l-1.415 1.415 62.226 62.225 1.414-1.414zM66.87 33.941l-1.414 1.414 62.225 62.226 1.414-1.414zM62.627 38.184l-1.414 1.414 62.226 62.225 1.414-1.414zM58.385 42.426l-1.414 1.415 62.225 62.225 1.414-1.414zM54.142 46.669l-1.414 1.414 62.225 62.226 1.415-1.415zM49.9 50.912l-1.415 1.414 62.226 62.225 1.414-1.414zM45.657 55.154l-1.414 1.415 62.225 62.225 1.414-1.414zM41.414 59.397L40 60.811l62.225 62.226 1.415-1.415z"/>
-                                        </g>
-                                    </g>
-                                    <g transform="matrix(1 0 0 -1 326 124)" fill="url(#hero-illustration-a)">
-                                        <path d="M62.225 0l1.415 1.414L1.414 63.64 0 62.225zM66.468 4.243l1.414 1.414L5.657 67.882l-1.414-1.414zM70.71 8.485L72.126 9.9 9.899 72.125 8.485 70.71zM74.953 12.728l1.415 1.414-62.226 62.226-1.414-1.415zM79.196 16.97l1.414 1.415L18.385 80.61l-1.414-1.414zM83.439 21.213l1.414 1.414-62.226 62.226-1.414-1.414zM87.681 25.456l1.414 1.414L26.87 89.095l-1.414-1.414zM91.924 29.698l1.414 1.415-62.225 62.225-1.415-1.414z"/>
-                                        <path d="M91.924 29.698l1.414 1.415-62.225 62.225-1.415-1.414zM96.167 33.941l1.414 1.414-62.226 62.226-1.414-1.414zM100.41 38.184l1.413 1.414-62.225 62.225-1.414-1.414zM104.652 42.426l1.414 1.415-62.225 62.225-1.415-1.414zM108.894 46.669l1.415 1.414-62.226 62.226-1.414-1.415zM113.137 50.912l1.414 1.414-62.225 62.225-1.414-1.414zM117.38 55.154l1.414 1.415-62.225 62.225-1.415-1.414zM121.622 59.397l1.415 1.414-62.226 62.226-1.414-1.415z"/>
-                                        <g>
-                                            <path d="M100.811 0l-1.414 1.414 62.225 62.226 1.415-1.415zM96.569 4.243l-1.415 1.414 62.226 62.225 1.414-1.414zM92.326 8.485L90.912 9.9l62.225 62.226 1.414-1.414zM88.083 12.728l-1.414 1.414 62.225 62.226 1.415-1.415zM83.84 16.97l-1.414 1.415 62.226 62.225 1.414-1.414zM79.598 21.213l-1.414 1.414 62.225 62.226 1.414-1.414zM75.355 25.456l-1.414 1.414 62.226 62.225 1.414-1.414zM71.113 29.698l-1.415 1.415 62.226 62.225 1.414-1.414z"/>
-                                            <path d="M71.113 29.698l-1.415 1.415 62.226 62.225 1.414-1.414zM66.87 33.941l-1.414 1.414 62.225 62.226 1.414-1.414zM62.627 38.184l-1.414 1.414 62.226 62.225 1.414-1.414zM58.385 42.426l-1.414 1.415 62.225 62.225 1.414-1.414zM54.142 46.669l-1.414 1.414 62.225 62.226 1.415-1.415zM49.9 50.912l-1.415 1.414 62.226 62.225 1.414-1.414zM45.657 55.154l-1.414 1.415 62.225 62.225 1.414-1.414zM41.414 59.397L40 60.811l62.225 62.226 1.415-1.415z"/>
-                                        </g>
-                                    </g>
-                                    <path d="M0 0h528v414H0z"/>
-                                    <path fill="#FFF" d="M0 63h528v297H0z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <path fill="#FFF" d="M0 63h528v297H0z"/>
-                                    <path fill="url(#hero-illustration-b)" d="M408 230h80v48h-80z"/>
-                                    <path d="M0 0h4v4H0V0zm0 12h4v4H0v-4zm0 12h4v4H0v-4zm0 12h4v4H0v-4zm0 12h4v4H0v-4zm0 12h4v4H0v-4zM12 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM24 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM36 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM48 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM60 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4z" transform="rotate(45 -118.861 431.981)" fill="url(#hero-illustration-c)"/>
-                                    <path fill="#FFF" d="M288 254h160v160H288z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <path fill="#FFF" d="M288 254h160v160H288z"/>
-                                    <path d="M248 79h88v24c0 35.346-28.654 64-64 64h-24V79z" fill="url(#hero-illustration-d)"/>
-                                    <path d="M348 132c0 26.51-21.49 48-48 48 0-26.51 21.49-48 48-48z" fill="url(#hero-illustration-e)" transform="matrix(1 0 0 -1 0 312)"/>
-                                    <path fill="#FFF" d="M200 31h88v88h-88z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                    <path fill="#FFF" d="M200 31h88v88h-88z"/>
-                                    <path fill="#F6F8FA" d="M24 248l88 88H24z"/>
-                                    <rect fill="url(#hero-illustration-d)" x="335" y="242" width="32" height="32" rx="16"/>
-                                </g>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="features section text-center">
-                <div class="section-square"></div>
-                <div class="container">
-                    <div class="features-inner section-inner">
-                        <div class="features-wrap">
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-                                            <defs>
-                                                <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-1-a">
-                                                    <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#007DFF" offset="100%"/>
-                                                </linearGradient>
-                                                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-1-b">
-                                                    <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#FF4F7A" offset="100%"/>
-                                                </linearGradient>
-                                            </defs>
-                                            <g fill="none" fill-rule="evenodd">
-                                                <path d="M8 0h24v24a8 8 0 0 1-8 8H0V8a8 8 0 0 1 8-8z" fill="url(#feature-1-a)"/>
-                                                <path d="M48 16v24a8 8 0 0 1-8 8H16c0-17.673 14.327-32 32-32z" fill="url(#feature-1-b)"/>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h4 class="feature-title h3-mobile">Feature</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-                                            <defs>
-                                                <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-2-a">
-                                                    <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#007DFF" offset="100%"/>
-                                                </linearGradient>
-                                                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-2-b">
-                                                    <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#FF4F7A" offset="100%"/>
-                                                </linearGradient>
-                                            </defs>
-                                            <g fill="none" fill-rule="evenodd">
-                                                <path d="M0 0h32v7c0 13.807-11.193 25-25 25H0V0z" fill="url(#feature-2-a)"/>
-                                                <path d="M48 16v7c0 13.807-11.193 25-25 25h-7c0-17.673 14.327-32 32-32z" fill="url(#feature-2-b)" transform="matrix(1 0 0 -1 0 64)"/>
-                                            </g>
-                                        </svg>
-
-                                    </div>
-                                    <h4 class="feature-title h3-mobile">Feature</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-                                            <defs>
-                                                <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-3-a">
-                                                    <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#007DFF" offset="100%"/>
-                                                </linearGradient>
-                                                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-3-b">
-                                                    <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#FF4F7A" offset="100%"/>
-                                                </linearGradient>
-                                            </defs>
-                                            <g fill="none" fill-rule="evenodd">
-                                                <circle fill="url(#feature-3-a)" cx="16" cy="16" r="16"/>
-                                                <path d="M16 16c17.673 0 32 14.327 32 32H16V16z" fill="url(#feature-3-b)"/>
-                                            </g>
-                                        </svg>
-
-                                    </div>
-                                    <h4 class="feature-title h3-mobile">Feature</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-                                            <defs>
-                                                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-4-a">
-                                                    <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#FF4F7A" offset="100%"/>
-                                                </linearGradient>
-                                                <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-4-b">
-                                                    <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#007DFF" offset="100%"/>
-                                                </linearGradient>
-                                            </defs>
-                                            <g fill="none" fill-rule="evenodd">
-                                                <path d="M32 16h16v16c0 8.837-7.163 16-16 16H16V32c0-8.837 7.163-16 16-16z" fill="url(#feature-4-a)"/>
-                                                <path d="M16 0h16v16c0 8.837-7.163 16-16 16H0V16C0 7.163 7.163 0 16 0z" fill="url(#feature-4-b)"/>
-                                            </g>
-                                        </svg>
-
-                                    </div>
-                                    <h4 class="feature-title h3-mobile">Feature</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="pricing section">
-                <div class="section-square"></div>
-                <div class="container">
-                    <div class="pricing-inner section-inner has-top-divider">
-                        <h2 class="section-title mt-0 text-center">Pricing</h2>
-                        <div class="pricing-tables-wrap">
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner">
-                                    <div class="pricing-table-main">
-                                        <div class="pricing-table-header is-revealing">
-                                            <div class="pricing-table-title mt-12 mb-8">Starter</div>
-                                            <div class="pricing-table-price mb-32 pb-24"><span class="pricing-table-price-currency h4">$</span><span class="pricing-table-price-amount h2">27</span>/mo</div>
-                                        </div>
-                                        <ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-table-cta is-revealing">
-                                        <a class="button button-primary button-shadow button-block" href="#">Get early access</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner">
-                                    <div class="pricing-table-main">
-                                        <div class="pricing-table-header is-revealing">
-                                            <div class="pricing-table-title mt-12 mb-8">Professional</div>
-                                            <div class="pricing-table-price mb-32 pb-24"><span class="pricing-table-price-currency h4">$</span><span class="pricing-table-price-amount h2">97</span>/mo</div>
-                                        </div>
-                                        <ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-table-cta is-revealing">
-                                        <a class="button button-primary button-shadow button-block" href="#">Get early access</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner">
-                                    <div class="pricing-table-main">
-                                        <div class="pricing-table-header is-revealing">
-                                            <div class="pricing-table-title mt-12 mb-8">Business</div>
-                                            <div class="pricing-table-price mb-32 pb-24"><span class="pricing-table-price-currency h4">$</span><span class="pricing-table-price-amount h2">147</span>/mo</div>
-                                        </div>
-                                        <ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-table-cta is-revealing">
-                                        <a class="button button-primary button-shadow button-block" href="#">Get early access</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="site-footer text-light">
-            <div class="container">
-                <div class="site-footer-inner has-top-divider">
-                    <div class="brand footer-brand">
-                        <a href="#">
-                            <svg width="48" height="32" viewBox="0 0 48 32" xmlns="http://www.w3.org/2000/svg">
-                                <title>Agnes</title>
-                                <defs>
-                                    <linearGradient x1="0%" y1="100%" y2="0%" id="logo-footer-a">
-                                        <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#007DFF" offset="100%"/>
-                                    </linearGradient>
-                                    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="logo-footer-b">
-                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#FF4F7A" offset="100%"/>
-                                    </linearGradient>
-                                </defs>
-                                <g fill="none" fill-rule="evenodd">
-                                    <rect fill="url(#logo-footer-a)" width="32" height="32" rx="16"/>
-                                    <rect fill="url(#logo-footer-b)" x="16" width="32" height="32" rx="16"/>
-                                </g>
-                            </svg>
-                        </a>
-                    </div>
-                    <ul class="footer-links list-reset">
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">About us</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ's</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                    </ul>
-                    <ul class="footer-social-links list-reset">
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Facebook</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#FFFFFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Twitter</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFFFFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Google</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#FFFFFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="footer-copyright">&copy; 2018 Agnes, all rights reserved</div>
-                </div>
+          </div>
+          <div class="col-sm-9 col-md-9 templatemo_col9">
+          	<div id="top-menu">
+            <nav class="mainMenu">
+              <ul class="nav">
+                <li><a class="menu" href="#templatemo_home">Home</a></li>
+                <li><a class="menu" href="#templatemo_about">About</a></li>
+                <li><a class="menu" href="#templatemo_portfolio">Portfolio</a></li>
+                <li><a class="menu" href="#templatemo_blog">Blog</a></li>
+                <li><a class="menu" href="#templatemo_contact">Contact</a></li>
+              </ul>
+            </nav>
             </div>
-        </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="clear"></div>
+    <!-- end menu -->
+      	<div  id="slider"  class="nivoSlider templatemo_slider">
+        	<a href="#"><img src="images/slider/img_1_blank.jpg" alt="slide 1" /></a>           	
+			<a href="#"><img src="images/slider/img_2_blank.jpg" alt="slide 2" /></a>  
+            <a href="#"><img src="images/slider/img_3_blank.jpg" alt="slide 3" /></a> 	        	
+	
+    	</div>
+             <div class="templatemo_caption">
+                    <div class="templatemo_slidetitle">Retina Ready & Responsive</div>
+                    <div class="clear"></div>
+                    <h1>Free HTML CSS Template</h1>
+                    <div class="clear"></div>
+             		<p>Smoothy Template is from templatemo website. Download it free to edit and use this layout for your personal or commercial websites. Credit goes to <a rel="nofollow" href="https://unsplash.com" target="_parent">Unsplash</a> for photos used in this template.</p>
+	          	    <a class="btn btn-large btn-primary" href="#">Read More</a>
+              </div>  
+  </header>
+  	<div class="templatemo_lightgrey_about" id="templatemo_about">
+	<div class="container">
+    	<div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
+        	<div class="item project-post">
+						<div class="templatemo_about_box">
+                        	<div class="square_coner">
+                     		   <span class="texts-a"><i class="fa fa-bell-o"></i></span>
+                      	  </div>                          
+                     	   Pixel Perfect Design</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 hover-box" >
+							<div class="inner-hover-box">								
+								<p>Nunc sed ullamcorper massa, vitae tristique lectus. Curabitur ultricies, nunc ac tincidunt sollicitudin, neque leo commodo nisl.</p>
+							</div>
+						</div>
+					</div> 	
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
+        	<div class="item project-post">
+						<div class="templatemo_about_box">
+                        	<div class="square_coner">
+                     		   <span class="texts-a"><i class="fa fa-tablet"></i></span>
+                      	  </div>
+                     	   Responsive Layout</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 hover-box" >
+							<div class="inner-hover-box">								
+								<p>You are NOT allowed to redistribute this template on any download website. However, you are allowed to use this template for your websites.</p>
+							</div>
+						</div>
+					</div> 	
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12 templatemo_margintop10">
+        	<div class="item project-post">
+						<div class="templatemo_about_box">
+                        	<div class="square_coner">
+                     		   <span class="texts-a"><i class="fa fa-lock"></i></span>
+                      	  </div>
+                     	   Secured Website</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 hover-box" >
+							<div class="inner-hover-box">								
+								<p>Please mention templatemo to your friends to support us. Vivamus neque eros, sollicitudin a ligula quis.</p>
+							</div>
+						</div>
+					</div> 	
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12 templatemo_margintop10">
+        	<div class="item project-post">
+						<div class="templatemo_about_box">
+                        	<div class="square_coner">
+                     		   <span class="texts-a"><i class="fa fa-rocket"></i></span>
+                      	  </div>
+                     	   Quick Service</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 hover-box" >
+							<div class="inner-hover-box">								
+								<p>Vestibulum convallis leo vel tortor ultricies aliquam. Nullam faucibus urna vel volutpat ornare. Donec molestie accumsan ante.</p>
+							</div>
+						</div>
+					</div> 	
+        </div>
+    </div>
     </div>
 
-    <script src="dist/js/main.min.js"></script>
+    <div class="clear"></div>
+    <div class="templatemo_reasonbg">
+    	<h2>Why choose us?</h2>
+       		<p>Mauris placerat lacinia justo vitae feugiat. Vestibulum convallis leo vel tortor ultricies aliquam.</p>
+            <div class="clear height10"></div>
+	        <div class="fa fa-bell-o"></div>
+            <div class="fa fa-tablet"></div>
+            <div class="fa fa-lock"></div>
+			<div class="clear height20"></div>
+            <a class="btn btn-large btn-primary" href="#">Read More</a>
+    </div>
+    <div class="clear"></div>
+    <!--Our Portfolio Start-->
+    <div class="templatemo_portfolio" id="templatemo_portfolio">
+        	<h2>Our portfolio</h2>
+            <p>Donec eget congue ligula, eget pharetra urna. Nam tempor tellus sit amet bibendum dapibus.</p>
+           	
+            <div class="container">
+           	  <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">              
+              	<div class="portfolio-item">
+							<div class="portfolio-thumb">
+								<img src="images/portfolio/1.jpg" alt="portfolio 1">
+								<div class="overlay-p">
+									<a href="images/portfolio/1.jpg" data-rel="lightbox[portfolio]">
+                                    	<ul>
+                                        	<li>Blue Sky</li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-search fa-2x"></li>
+                                        </ul>
+									</a>
+								</div>
+							</div> <!-- /.portfolio-thumb -->
+						</div>
+      
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">              
+              	<div class="portfolio-item">
+							<div class="portfolio-thumb">
+								<img src="images/portfolio/2.jpg" alt="portfolio 2">
+								<div class="overlay-p">
+									<a href="images/portfolio/2.jpg" data-rel="lightbox[portfolio]">
+                                    	<ul>
+                                        	<li>Forest</li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-search fa-2x"></li>
+                                        </ul>
+									</a>
+								</div>
+							</div> <!-- /.portfolio-thumb -->
+						</div>
+      
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">              
+              	<div class="portfolio-item">
+							<div class="portfolio-thumb">
+								<img src="images/portfolio/3.jpg" alt="portfolio 3">
+								<div class="overlay-p">
+									<a href="images/portfolio/3.jpg" data-rel="lightbox[portfolio]">
+                                    	<ul>
+                                        	<li>Forest</li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-search fa-2x"></li>
+                                        </ul>
+									</a>
+								</div>
+							</div> <!-- /.portfolio-thumb -->
+						</div>
+      
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">              
+              	<div class="portfolio-item">
+							<div class="portfolio-thumb">
+								<img src="images/portfolio/4.jpg" alt="portfolio 4">
+								<div class="overlay-p">
+									<a href="images/portfolio/4.jpg" data-rel="lightbox[portfolio]">
+                                    	<ul>
+                                        	<li>Black and White</li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-search fa-2x"></li>
+                                        </ul>
+									</a>
+								</div>
+							</div> <!-- /.portfolio-thumb -->
+						</div>
+      
+              </div>
+             </div>
+               <div class="clear"></div>
+              <div class="container">
+              		<div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">              
+              	<div class="portfolio-item">
+							<div class="portfolio-thumb">
+								<img src="images/portfolio/5.jpg" alt="portfolio 5">
+								<div class="overlay-p">
+									<a href="images/portfolio/5.jpg" data-rel="lightbox[portfolio]">
+                                    	<ul>
+                                        	<li>Rotary</li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-search fa-2x"></li>
+                                        </ul>
+									</a>
+								</div>
+							</div> <!-- /.portfolio-thumb -->
+						</div>
+      
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">              
+              	<div class="portfolio-item">
+							<div class="portfolio-thumb">
+								<img src="images/portfolio/6.jpg" alt="portfolio 6">
+								<div class="overlay-p">
+									<a href="images/portfolio/6.jpg" data-rel="lightbox[portfolio]">
+                                    	<ul>
+                                        	<li>Rotary</li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-search fa-2x"></li>
+                                        </ul>
+									</a>
+								</div>
+							</div> <!-- /.portfolio-thumb -->
+						</div>
+      
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">              
+              	<div class="portfolio-item">
+							<div class="portfolio-thumb">
+								<img src="images/portfolio/7.jpg" alt="portfolio 7">
+								<div class="overlay-p">
+									<a href="images/portfolio/7.jpg" data-rel="lightbox[portfolio]">
+                                    	<ul>
+                                        	<li>Blue Sky</li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-search fa-2x"></li>
+                                        </ul>
+									</a>
+								</div>
+							</div> <!-- /.portfolio-thumb -->
+						</div>
+      
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">              
+              	<div class="portfolio-item">
+							<div class="portfolio-thumb">
+								<img src="images/portfolio/8.jpg" alt="portfolio 8">
+								<div class="overlay-p">
+									<a href="images/portfolio/8.jpg" data-rel="lightbox[portfolio]">
+                                    	<ul>
+                                        	<li>Black and White</li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-circle"></li>
+                                            <li class="fa fa-circle fsmall"></li>
+                                            <li class="fa fa-search fa-2x"></li>
+                                        </ul>
+									</a>
+								</div>
+							</div> <!-- /.portfolio-thumb -->
+						</div>
+      
+              </div>
+              
+              </div>
+            <a class="btn btn-large btn-primary" href="#">View More</a>
+    </div>
+    <!--Our Portfolio End-->
+    <div class="clear"></div>
+    <!--Our Blog Start-->
+    <div class="templatemo_blog" id="templatemo_blog">
+    	<h2>Our blog</h2>
+        	<p>Check out our latest posts.</p>
+        <div class="clear"></div>
+        <div class="container">
+       		<div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
+            	<div class="templatemo_wrapperblogbox">
+                	<a href="#" class="fa fa-calendar tooltip1" title="28 January 2084"></a>
+                    <a href="#" class="fa fa-user tooltip2" title="Booker"></a>
+                    <a href="#" class="fa fa-tag tooltip3" title="HTML5, CSS3"></a>
+                    <a href="#" class="fa fa-comment tooltip4" title="Comments (4)"></a>
+                </div>
+                <div class="clear"></div>
+                <img src="images/templatemo_blogimage01.jpg" alt="blog image 1">
+                <div class="clear"></div>
+                <div class="templatemo_blogtext">
+                	<span class="left">New Touring</span>
+                    <span class="right">
+                    <a href="#" title="Click more"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></a>
+                    </span>
+                </div>
+        	</div>
+            <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
+            	<div class="templatemo_wrapperblogbox">
+                	<a href="#" class="fa fa-calendar tooltip1" title="26 January 2084"></a>
+                    <a href="#" class="fa fa-user tooltip2" title="George"></a>
+                    <a href="#" class="fa fa-tag tooltip3" title="Template, Design"></a>
+                    <a href="#" class="fa fa-comment tooltip4" title="Comments (8)"></a>
+                </div>
+                <div class="clear"></div>
+                <img src="images/templatemo_blogimage02.jpg" alt="blog image 2">
+                <div class="clear"></div>
+                <div class="templatemo_blogtext">
+                	<span class="left">Coffee Shop</span>
+                    <span class="right">
+                    <a href="#" title="Click more"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></a>
+                    </span>
+                </div>
+        	</div>
+            <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12 templatemo_margintop10">
+            	<div class="templatemo_wrapperblogbox">
+                	<a href="#" class="fa fa-calendar tooltip1" title="24 January 2084"></a>
+                    <a href="#" class="fa fa-user tooltip2" title="Jelly Bean"></a>
+                    <a href="#" class="fa fa-tag tooltip3" title="Web Design, Portfolio"></a>
+                    <a href="#" class="fa fa-comment tooltip4" title="Comments (16)"></a>
+                </div>
+                <div class="clear"></div>
+                <img src="images/templatemo_blogimage03.jpg" alt="blog image 3">
+                <div class="clear"></div>
+                <div class="templatemo_blogtext">
+                	<span class="left">Tea Time</span>
+                    <span class="right">
+                    <a href="#" title="Click more"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></a>
+                    </span>
+                </div>
+        	</div>
+            <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12 templatemo_margintop10">
+            	<div class="templatemo_wrapperblogbox">
+                	<a href="#" class="fa fa-calendar tooltip1" title="22 January 2084"></a>
+                    <a href="#" class="fa fa-user tooltip2" title="John Walker"></a>
+                    <a href="#" class="fa fa-tag tooltip3" title="Logo, Creative"></a>
+                    <a href="#" class="fa fa-comment tooltip4" title="Comments (32)"></a>
+                </div>
+                <div class="clear"></div>
+                <img src="images/templatemo_blogimage04.jpg" alt="blog image 4">
+                <div class="clear"></div>
+                <div class="templatemo_blogtext">
+                	<span class="left">Mobile First</span>
+                    <span class="right">
+                    <a href="#" title="Click more"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></a>
+                    </span>
+                </div>
+        	</div>
+        </div>
+    </div>
+    <!--Our Blog End-->
+	<!--Our Partner Start-->
+    <div class="section6 templatemo_partner" id="templatemo_partners">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="secHeader">
+              <h2 class="text-center">Our partners</h2>
+              <p class="text-center">Etiam faucibus turpis id ipsum egestas porta. Cras in aliquet purus, ac varius turpis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="partnerWrap">
+        <div class="slideshow" 
+            data-cycle-fx=carousel
+            data-cycle-timeout=0
+            data-cycle-carousel-visible=4
+            data-cycle-next="#next"
+            data-cycle-prev="#prev"
+            data-cycle-carousel-fluid=true
+            >
+            <img alt="partner 1" src="images/partners/partner1.jpg" >
+            <img alt="partner 2" src="images/partners/partner2.jpg" >
+            <img alt="partner 3" src="images/partners/partner3.jpg" >
+            <img alt="partner 4" src="images/partners/partner4.jpg" >
+            <img alt="partner 5" src="images/partners/partner5.jpg" >
+            <img alt="partner 6" src="images/partners/partner6.jpg" >
+            <img alt="partner 7" src="images/partners/partner7.jpg" >
+            <img alt="partner 8" src="images/partners/partner8.jpg" >
+        </div>
+        <a href="#" id="prev">&lt;&lt; Prev </a>
+        <a href="#" id="next"> Next &gt;&gt; </a>
+      </div>
+
+    </div>
+    <!--Our Partner End-->
+    <!--Our Client Start-->
+    <div class="templatemo_reasonbg">
+    	<h2>What our clients say?</h2>
+        <div class="container">
+        	<div class="col-xs-11 templatemo_col12 templatemo_clientwrapper">
+            	<div class="templatemo_clientimage">
+                <p class="templatemo_clientdes">Duis consequat ut quam ut sollicitudin. Donec eget congue ligula, eget pharetra urna. Nam tempor tellus sit amet bibendum dapibus.</p>
+            	  <img src="images/client/1.jpg" alt="client image 1" />
+                  <div class="clear"></div>
+                  <div class="fa fa-circle mleft1"></div>
+			  	</div>
+                <div class="templatemo_clientimage">
+                <p class="templatemo_clientdes">Nam auctor elementum dolor. Donec euismod, justo sed convallis blandit, ipsum erat mattis lectus, vel pharetra neque enim tristique risus.</p>
+  				<img src="images/client/2.jpg" alt="client image 2" /> 
+                <div class="clear"></div>
+                  <div class="fa fa-circle mleft2"></div>				 
+				</div>
+                <div class="templatemo_clientimage">
+                <p class="templatemo_clientdes">Quisque tincidunt risus et enim. Vestibulum gravida sem at sem bibendum vehicula. Sed et leo. </p>
+  				<img src="images/client/3.jpg" alt="client image 3" /> 		
+                <div class="clear"></div>
+                  <div class="fa fa-circle mleft3"></div>		 
+				</div>
+                <div class="templatemo_clientimage next templatemo_marginleft50">
+                <p class="templatemo_clientdes">Curabitur commodo arcu vel enim mollis consequat. Nulla pharetra tortor vel arcu. In rhoncus fermentum ipsum. </p>
+  				<img src="images/client/4.jpg" alt="client image 4" />
+                <div class="clear"></div>
+                  <div class="fa fa-circle mleft4"></div>
+ 				 
+				</div>
+              <div class="templatemo_clientimage next">
+                <p class="templatemo_clientdes">Nam auctor elementum dolor. Donec euismod, justo sed convallis blandit, ipsum erat mattis lectus, vel pharetra neque enim tristique risus. </p>
+		      <img src="images/client/5.jpg" alt="client image 5" />
+ 				 <div class="clear"></div>
+                  <div class="fa fa-circle mleft5"></div>
+				</div>
+                
+          </div>
+            <div class="clear"></div>
+        </div>
+        
+	</div>
+     <div class="clear"></div>
+    <!--Our Client End-->
+    <!--Contact Start -->
+    <div class="templatemo_lightgrey" id="templatemo_contact">
+    	<div class="templatemo_paracenter">
+    	<h2>Contact us</h2></div>
+        <div class="clear"></div>
+        <div class="container">
+        	<div class="templatemo_paracenter">
+            Pellentesque aliquam in risus eu ultrices. Suspendisse id interdum nibh. Etiam vel mattis augue, a vestibulum arcu. Nam rutrum diam dolor, eu vehicula nisl tincidunt non. Fusce tincidunt id justo eu tempor. Phasellus sit amet ante lobortis, mattis sapien id, dictum ipsum.
+            </div>
+            <div class="clear"></div>
+            <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="templatemo_maps">
+              <div class="fluid-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12084.143170610365!2d-73.96770330299584!3d40.783227259584116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral+Park!5e0!3m2!1sen!2s!4v1391601567888"></iframe> 
+              </div>
+            </div>
+          </div>
+          <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <form role="form">
+              <div class="form-group">
+                <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Your Name" maxlength="30">
+              </div>
+              <div class="form-group">
+                <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" maxlength="30">
+              </div>
+              <div class="form-group">
+                <input name="subject" type="text" class="form-control" id="subject" placeholder="Your Subject" maxlength="40">
+              </div>
+              <div><button type="button" class="btn btn-primary">Send Message</button></div>
+            </form>
+          </div>
+          <div class="col-md-9">
+            <div class="txtarea">
+              <textarea name="message" rows="10" class="form-control" id="message"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+        </div>
+  </div>
+    
+    <!--Contact End-->
+    <!--Footer Start-->
+    <div class="templatemo_footer">
+    	<div class="container">
+       	  <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
+            	<h2>About Smoothy</h2>
+                <p>Etiam faucibus turpis id ipsum egestas porta. Cras in aliquet purus, ac varius turpis. Proin nibh mauris, lacinia at tincidunt egestas, tincidunt eleifend urna. Aliquam erat volutpat.</p>
+          </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
+            	<h2>Services</h2>
+                <ul>
+                  <li>Integer condimentum</li>
+                  <li>Quisque eget mi felis</li>
+                  <li>Mauris placerat lacinia</li>
+                  <li>Cras molestie imperdiet</li>
+                  <li>Duis vel consectetur</li>
+                </ul>
+                <div class="clear"></div>
+                <div class="templatemo_morelink"><a href="#">and more... </a></div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
+            	<h2>Flicker</h2>
+					<div id="templatemo_flicker" >
+          <ul class="nobullet footer_gallery">
+                <li><a href="images/flicker/1.jpg" data-rel="lightbox[gallery]"><img src="images/flicker/s1.jpg" alt="image 1" /></a></li>
+                <li><a href="images/flicker/2.jpg" data-rel="lightbox[gallery]"><img src="images/flicker/s2.jpg" alt="image 2" /></a></li>
+                <li><a href="images/flicker/3.jpg" data-rel="lightbox[gallery]"><img src="images/flicker/s3.jpg" alt="image 3" /></a></li>
+                <li><a href="images/flicker/4.jpg" data-rel="lightbox[gallery]"><img src="images/flicker/s4.jpg" alt="image 4" /></a></li>
+                <li><a href="images/flicker/5.jpg" data-rel="lightbox[gallery]"><img src="images/flicker/s5.jpg" alt="image 5" /></a></li>
+          	    <li><a href="images/flicker/6.jpg" data-rel="lightbox[gallery]"><img src="images/flicker/s6.jpg" alt="image 6" /></a></li>
+                <li><a href="images/flicker/7.jpg" data-rel="lightbox[gallery]"><img src="images/flicker/s7.jpg" alt="image 7" /></a></li>
+                <li><a href="images/flicker/8.jpg" data-rel="lightbox[gallery]"><img src="images/flicker/s8.jpg" alt="image 8" /></a></li>
+            </ul>
+            <br style="clear: left" />
+        </div>
+          </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
+            <h2>Contact</h2>
+            	<span class="left col-xs-1 fa fa-map-marker"></span>
+                <span class="right col-xs-11">120-240 Nam bibendum consectetur diam et fringilla</span>
+                <div class="clear height10"></div>
+                <span class="left col-xs-1 fa fa-phone"></span>
+                <span class="right col-xs-11">010-020-0680</span>
+                <div class="clear height10"></div>
+                <span class="left col-xs-1 fa fa-envelope"></span>
+                <span class="right col-xs-11">contact@company.com</span>
+                <div class="clear height10"></div>
+                <span class="left col-xs-1 fa fa-globe"></span>
+                <span class="right col-xs-11">www.company.com</span>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+   <!--Footer End-->
+	<!-- Bottom Start -->
+    <div class="templatemo_bottom">
+    	<div class="container">
+        	<div class="row">
+            	<div class="left">
+                	<span>Copyright © 2020 <a href="#">Your Company Name</a> 
+                    
+                    . Design: <a rel="nofollow" href="#">Template Mo</a></span>
+              </div>
+                <div class="right">
+                	<a href="#"><div class="fa fa-rss soc"></div></a>
+                    <a href="#"><div class="fa fa-twitter soc"></div></a>
+                    <a href="#"><div class="fa fa-linkedin soc"></div></a>
+                    <a href="#"><div class="fa fa-dribbble soc"></div></a>
+                    <a href="#"><div class="fa fa-facebook soc"></div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom End -->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cycle2.min.js"></script>
+    <script src="js/jquery.cycle2.carousel.min.js"></script>
+    <script src="js/jquery.nivo.slider.pack.js"></script>
+    <script>$.fn.cycle.defaults.autoSelector = '.slideshow';</script>
+    <script type="text/javascript">
+      $(function(){
+          var default_view = 'grid';
+          if($.cookie('view') !== 'undefined'){
+              $.cookie('view', default_view, { expires: 7, path: '/' });
+          } 
+          function get_grid(){
+              $('.list').removeClass('list-active');
+              $('.grid').addClass('grid-active');
+              $('.prod-cnt').animate({opacity:0},function(){
+                  $('.prod-cnt').removeClass('dbox-list');
+                  $('.prod-cnt').addClass('dbox');
+                  $('.prod-cnt').stop().animate({opacity:1});
+              });
+          }
+          function get_list(){
+              $('.grid').removeClass('grid-active');
+              $('.list').addClass('list-active');
+              $('.prod-cnt').animate({opacity:0},function(){
+                  $('.prod-cnt').removeClass('dbox');
+                  $('.prod-cnt').addClass('dbox-list');
+                  $('.prod-cnt').stop().animate({opacity:1});
+              });
+          }
+          if($.cookie('view') == 'list'){ 
+              $('.grid').removeClass('grid-active');
+              $('.list').addClass('list-active');
+              $('.prod-cnt').animate({opacity:0});
+              $('.prod-cnt').removeClass('dbox');
+              $('.prod-cnt').addClass('dbox-list');
+              $('.prod-cnt').stop().animate({opacity:1}); 
+          } 
+
+          if($.cookie('view') == 'grid'){ 
+              $('.list').removeClass('list-active');
+              $('.grid').addClass('grid-active');
+              $('.prod-cnt').animate({opacity:0});
+                  $('.prod-cnt').removeClass('dboxlist');
+                  $('.prod-cnt').addClass('dbox');
+                  $('.prod-cnt').stop().animate({opacity:1});
+          }
+
+          $('#list').click(function(){   
+              $.cookie('view', 'list'); 
+              get_list()
+          });
+
+          $('#grid').click(function(){ 
+              $.cookie('view', 'grid'); 
+              get_grid();
+          });
+
+          /* filter */
+          $('.menuSwitch ul li').click(function(){
+              var CategoryID = $(this).attr('category');
+              $('.menuSwitch ul li').removeClass('cat-active');
+              $(this).addClass('cat-active');
+              
+              $('.prod-cnt').each(function(){
+                  if(($(this).hasClass(CategoryID)) == false){
+                     $(this).css({'display':'none'});
+                  };
+              });
+              $('.'+CategoryID).fadeIn(); 
+              
+          });
+      });
+    </script>
+	<script src="js/jquery.singlePageNav.js"></script>
+	
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+          prevText: '',
+          nextText: '',
+          controlNav: false,
+        });
+    });
+    </script>
+    <script>
+      $(document).ready(function(){
+
+        // hide #back-top first
+        $("#back-top").hide();
+        
+        // fade in #back-top
+        $(function () {
+          $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+              $('#back-top').fadeIn();
+            } else {
+              $('#back-top').fadeOut();
+            }
+          });
+
+          // scroll body to 0px on click
+          $('#back-top a').click(function () {
+            $('body,html').animate({
+              scrollTop: 0
+            }, 800);
+            return false;
+          });
+        });
+
+      });
+      </script>
+      <script type="text/javascript">
+      <!--
+          function toggle_visibility(id) {
+             var e = document.getElementById(id);
+             if(e.style.display == 'block'){
+                e.style.display = 'none';
+                $('#togg').text('show footer');
+            }
+             else {
+                e.style.display = 'block';
+                $('#togg').text('hide footer');
+            }
+          }
+      //-->
+      </script>
+      
+      <script type="text/javascript">
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+      </script>
+      <script src="js/stickUp.min.js" type="text/javascript"></script>
+      <script type="text/javascript">
+        //initiating jQuery
+        jQuery(function($) {
+          $(document).ready( function() {
+            //enabling stickUp on the '.navbar-wrapper' class
+            $('.mWrapper').stickUp();
+          });
+        });
+      </script>
+      <script>
+     $('a.menu').click(function(){
+    $('a.menu').removeClass("active");
+    $(this).addClass("active");
+	});
+      </script>
+      
+      <script> <!-- scroll to specific id when click on menu -->
+      	 // Cache selectors
+var lastId,
+    topMenu = $("#top-menu"),
+    topMenuHeight = topMenu.outerHeight()+15,
+    // All list items
+    menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+    scrollItems = menuItems.map(function(){
+      var item = $($(this).attr("href"));
+      if (item.length) { return item; }
+    });
+
+// Bind click handler to menu items
+// so we can get a fancy scroll animation
+menuItems.click(function(e){
+  var href = $(this).attr("href"),
+      offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+  $('html, body').stop().animate({ 
+      scrollTop: offsetTop
+  }, 300);
+  e.preventDefault();
+});
+
+// Bind to scroll
+$(window).scroll(function(){
+   // Get container scroll position
+   var fromTop = $(this).scrollTop()+topMenuHeight;
+   
+   // Get id of current scroll item
+   var cur = scrollItems.map(function(){
+     if ($(this).offset().top < fromTop)
+       return this;
+   });
+   // Get the id of the current element
+   cur = cur[cur.length-1];
+   var id = cur && cur.length ? cur[0].id : "";
+   
+   if (lastId !== id) {
+       lastId = id;
+       // Set/remove active class
+       menuItems
+         .parent().removeClass("active")
+         .end().filter("[href=#"+id+"]").parent().addClass("active");
+   }                   
+});
+      </script>
 </body>
 </html>
