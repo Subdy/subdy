@@ -10,7 +10,8 @@ html, body {
 	font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif; 
 	padding: 0px; 
 	margin: 0px; 
-	color: #8a8a8a;
+	color: white;
+	background-color: #7918f2;
 }
 
 a {
@@ -22,7 +23,7 @@ a:hover {
 }
 
 p {
-	color: #777;
+	color:white;
 }
 
 .height10 { height: 10px; }
@@ -35,12 +36,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1	{	font-size: 1.5em;
 	color: #ffffff;
-	background: #343537;
+	background:  #7918f2;
 	padding: 10px 8px;
 	float: left;
 	}
 	
-h2	{ font-size: 24px; color: #333333; }
+h2	{ font-size: 24px; color:  whitesmoke; }
 
 .templatemo_reasonbg h2, .templatemo_blog h2 { color: #ffffff; }
 
@@ -65,7 +66,7 @@ img {
 
 }
 .templatemo_slider {
-	top: 80px;
+	top: 20px;
 	position: relative;
 }
 .logo {
@@ -118,19 +119,19 @@ img {
 
 #top-menu li.active a {
     color: #ffffff;
-	background: #72b842;
+	background: #7918f2;
 	line-height: 60px;
 	font-size: 14px;
 }
 
 .btn-primary {
-	background-color: #72b842;
-	border-color: #5ea32e;
+	background-color: #4801ff;
+	border-color: #7918f2;
 }
 
 .btn-primary:hover {
-	background-color: #5aa625;
-	border-color: #5ea32e;
+	background-color:#4801ff;
+	border-color:  #7918f2;
 }
 
 .templatemo_caption p { color: #ffffff; background: rgba(0, 0, 0, 0.32); padding: 10px; font-size: 12px; }
@@ -159,13 +160,14 @@ img {
 
 .templatemo_lightgrey_about	{
 	background-color: #e9e9e9;
-	padding: 120px 0px 50px 0px;
+	padding: 20px 0px 50px 0px;
 
 }
 
 .templatemo_lightgrey {
-	background-color: #e9e9e9;
-	padding: 70px 0px;
+	background-color: white;
+	padding: 10px 0px;
+	color:  #7918f2;
 
 }
 
@@ -189,7 +191,7 @@ img {
 	vertical-align: middle;
 	text-align: center;
 	padding: 20px 30px;
-	background: #72b842;
+	background: #4801ff;
 	border-radius: 5px;
 	font-size: 32px;
 	color: #ffffff;
@@ -202,7 +204,7 @@ img {
     width: 92%;
     height: 100%;
 	border-radius: 5px;
-    background: #72b842;
+    background:#7918f2;
     visibility: hidden\0/;
     opacity: 0\0/;
     transition: all 0.25s ease-in-out;
@@ -437,7 +439,7 @@ img {
 .templatemo_clientimage	div.mleft5	{ left: 52%;}
 
 .templatemo_maps {
-  margin: 50px 0;
+ 
   display: block;
   overflow: hidden;
   height: 400px;
