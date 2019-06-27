@@ -13,6 +13,10 @@ html, body {
 	color: white;
 	background-color: #7918f2;
 }
+#video{
+	width:100%;
+	margin-left:20p;
+}
 
 a {
 	color: #00ACE9;
