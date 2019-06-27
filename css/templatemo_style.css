@@ -61,7 +61,7 @@ img {
 .templatemo_top	{
 	position: fixed;
 	z-index: 5000;
-	background: #ffffff;
+	background: #7918f2;
 	width: 100%;
 
 }
@@ -70,8 +70,9 @@ img {
 	position: relative;
 }
 .logo {
-	padding: 0 0 0 20px;
-	width: 190px;
+	margin-left: -100px;
+	width: 100px;
+	height: 100px;
 }
 .mainMenu {
 
@@ -107,14 +108,15 @@ img {
     -webkit-transition: 1s all ease;
     -moz-transition: 1s all ease;
     transition: 1s all ease;
-    color: #666;
+    color: white;
     text-decoration: none;
-	font-size: 14px;
+	font-size: 16px;
+	font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif; 
 }
 
 #top-menu a:hover {
     color: #ffffff;
-	background: #72b842;
+	background: #4801ff;
 }
 
 #top-menu li.active a {
